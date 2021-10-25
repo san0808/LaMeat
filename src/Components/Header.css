@@ -1,0 +1,33 @@
+.header{
+    background-color: rgb(20, 0, 201);
+    display: flex;
+    flex-wrap: wrap ;
+    width: 100%;
+    align-items: center;
+    min-height: 80px;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+.nav{
+    display: flex;
+    padding-left: 40px;
+    color: white;
+    width: 346px;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+.profile{
+    height: 42px;
+    width: 42px;
+    border-radius: 21px;
+    background-color: black;
+    align-items: center;
+}
+.profileImage{
+    height: 40px;
+    border-radius: 10px;
+}
+.navOption:hover{
+    cursor: pointer;
+    color:rgb(190, 183, 250)
+}
