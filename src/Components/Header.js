@@ -1,13 +1,18 @@
 import React from 'react'
 import './Header.css'
 import profile from '../assets/logo512.png'
+import {BrowserRouter as Router, NavLink,Switch} from 'react-router-dom'
 function Header() {
     return (
         <div className="header">
+        
             <div className="nav">
-                <a className="navOption">Home</a>
-                <a className="navOption">Events</a>
+                
+                <NavLink to='/Home' activeClassName="active" className="navOption">Home</NavLink>
+                <NavLink to='/Events' activeClassName="active" className="navOption">Events</NavLink>
+                
             </div>
+       
             <div className="logo">
                 <a className="logoName">LaMeet</a>
             </div>
@@ -15,7 +20,9 @@ function Header() {
                  <img className='profileImage' src={profile}/>
             </div>
         </div>
+       
     )
+    
 }
 
 export default Header

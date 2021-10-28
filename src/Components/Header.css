@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(20, 0, 201);
+    background-color: rgb(30, 49, 156);
     display: flex;
     flex-wrap: wrap ;
     width: 100%;
@@ -11,7 +11,7 @@
 .nav{
     display: flex;
     padding-left: 40px;
-    color: white;
+    color: white!important;
     width: 346px;
     justify-content: space-evenly;
     font-weight: 600;
@@ -27,7 +27,13 @@
     height: 40px;
     border-radius: 10px;
 }
+.active{
+    color:rgb(190, 183, 250)
+}
 .navOption:hover{
     cursor: pointer;
     color:rgb(190, 183, 250)
+}
+.navOption{
+    color: rgb(65, 137, 201);
 }

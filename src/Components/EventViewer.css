@@ -1,0 +1,48 @@
+.Task{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(132, 214, 210);
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.Date{
+    background-color: #3317d3;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.button {
+   
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #15014d;
+    color: white;
+    padding: 0.75rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    justify-content: right;
+  }
+  .button:hover{
+      background-color: rgb(186, 203, 218);
+      color: blue;
+  }
